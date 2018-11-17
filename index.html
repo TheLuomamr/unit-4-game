@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Crystal Game</title>
+
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Vollkorn" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </head>
+
+    
+    <body background="assets/images/pink_dust.png">
+        <div id="box1">
+            Crystals Collector!
+        </div>
+        <div id="instructions">
+            <h3>Instructions:</h3>
+            <p>You will be given a random number at the start of the game.
+                <br>
+                <br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                <br>
+                <br>
+                You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.
+                <br>
+                <br>
+                The vaule of each crystal is hidden from you until you click on it.
+                <br>
+                <br>
+                Each time when the game starts, the game will change the values of each crystal.
+                <br>
+                <br>
+                Goodluck!
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-auto" id="number">
+                    0
+                </div>
+                <div class="col-md-auto" id="winslosses">
+                    <p id="wins">Wins: 0</p>
+                    <p id="losses">Losses: 0</p>
+                    
+                </div>
+                </div>
+            </div>
+            
+            <div class="row" id="allGems">
+                <div class="col-md-auto" id="gem1">
+                    <button><img src="assets/images/blue_gem.png"></button>
+                </div>
+                <div class="col-md-auto" id="gem2">
+                    <button><img src="assets/images/purple_gem.png"></button>
+                </div>
+                <div class="col-md-auto" id="gem3">
+                    <button><img src="assets/images/green_gem.png"></button>
+                </div>
+                <div class="col-md-auto" id="gem4">
+                    <button><img src="assets/images/pink_gem.png"></button>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-auto" id="score">
+                    Total Score:
+                </div>
+                <div class="col-md-auto" id="scoreNumber">
+                        0
+                </div>
+            </div>
+
+            
+                
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </body>
+</html>

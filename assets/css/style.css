@@ -1,0 +1,108 @@
+body {
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#box1 {
+    background-color: rgb(103, 230, 103);
+    color: black;
+    width: 220px;
+    height:auto;
+    margin: 10px;
+    margin-left:125px;
+    font-size:25px;
+    font-family: 'Vollkorn', serif;
+}
+
+#instructions{
+    width: 50%;
+    height: auto;
+    background-color: rgb(236, 150, 236);
+    color:black;
+    margin:10px;
+    padding-left: 5px;
+    
+}
+
+#number{
+    background-color: white;
+    height:100px;
+    width: 100px;
+    color:black;
+    margin: 5px;
+    font-size:50px;
+    text-align: center;
+}
+#winslosses{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 5px;
+    color:black;
+    padding: 0px;
+    padding-top:10px;
+
+}
+
+#gem1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 20px;
+    color:black;
+    padding-left:0px
+   
+}
+
+#gem2{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 20px;
+    color:black;
+    padding-left:0px
+
+}
+
+#gem3{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 20px;
+    color:black;
+    padding-left:0px
+}
+
+#gem4{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 20px;
+    color:black;
+    padding-left:0px
+
+}
+
+img{
+    object-fit: contain;
+    width:100px;
+    height: 100px;
+    
+}
+
+#score{
+    background-color: white;
+    color:black;
+    width: 105px;
+    margin: 20px;
+    
+}
+
+#scoreNumber{
+    background-color: white;
+    color:black;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    
+}
